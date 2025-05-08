@@ -10,3 +10,8 @@ EXERCISE 3
 I chose QuickSort as the sorting method because it has an average time complexity of O(nlogn) so it efficient while also modifying the array in place.
 It works by selecting a pivot and partitioning the array such that elem less than the pivot go to the left and elements greater to the right.Than recursively applies the same principle until the array is sorted.
 
+EX1 --> logic written in Utils
+EX2 --> MinMaxStack
+EX3 --> DuplicateCheck
+
+Main --> all the tests for the three exercises
