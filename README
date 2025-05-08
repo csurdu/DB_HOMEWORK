@@ -1,0 +1,12 @@
+EXERCISE 2
+    I chose to use a stack for this problem as it provided the required O(1) efficiency by using the push, pop, and peek operations, which helped me retrieve or extract the minimum and maximum values.
+Since the problem guarantees that the values come in increasing order, I saved the first value in a separate stack as it is certainly the minimum value, and then I placed the rest of the values in a maximum stack.
+To ensure that the values are correctly ordered, I check each incoming value to see if it is smaller than the current maximum. If it is, I do not insert it.
+    For the remaining operations, I simply used the stack functions as they efficiently handle retrieving, extracting, and removing the minimum and maximum values.
+Since the stack always keeps the maximum value on top, accessing or removing it is very straightforward.
+
+EXERCISE 3
+    Because I was restricted from using collections, I thought about sorting the array first and than iterate the array and check if 2 elements next to each other are the same or not.
+I chose QuickSort as the sorting method because it has an average time complexity of O(nlogn) so it efficient while also modifying the array in place.
+It works by selecting a pivot and partitioning the array such that elem less than the pivot go to the left and elements greater to the right.Than recursively applies the same principle until the array is sorted.
+

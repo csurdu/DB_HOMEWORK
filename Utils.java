@@ -6,8 +6,6 @@ public class Utils {
 
     public static void printMarketOpenClosePrices(Iterator<Trade> trades) {
 
-        //TODO: implement
-
         Map<String, Double[]> prices = new HashMap<>();
         while (trades.hasNext()) {
             Trade trade = trades.next();
